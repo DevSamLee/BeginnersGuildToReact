@@ -32,9 +32,12 @@
 * How to use arrow function () => {} for custom component
 * To use <message> tag as a function, it must start with Uppercase (message -> Message)
 * If not, complier understands <message> tag as a string and then creates as a DOM
-* Compare to <div> and <Message> tags at console log
+* Compare to '<div>' and '<Message>' tags at console log
   
 ### 07.
 * Add prop-types.js in script to use propTypes function
 * Check validation of component by using condition: string(props, propName, componentName)
 * Check validation of every component by using ‘PropTypes.string.isRequired’ to each component
+
+### 08.
+* Add js function with jsx by using <> and go back to js by using {}
