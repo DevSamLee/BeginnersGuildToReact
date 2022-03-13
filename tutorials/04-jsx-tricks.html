@@ -5,11 +5,10 @@
   <script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
   <script type="text/babel">
     const rootElement = document.getElementById('root')
-    // const element = React.createElement('div', {
-    //   children: 'Hello World',
-    //   className: 'container',
-    // })
-    const element = <div class="container">Hello World</div>
+    const children = 'Hello World'
+    const className = 'container'
+    const props = {children, className}
+    const element = <div id ="app-root" {...props} className="not-container" />
     ReactDOM.render(element, rootElement)
   </script>
 </body>
