@@ -46,5 +46,5 @@
 * Re-rendering application without delating the focus by using jsx in React
 
 ### 10.
-* Add style to each element by using function with …rest and …style to minimize duplication of code
-* Use style function in js, it should be declared as CamelCase not as KebabCase (e.g back-ground Color => backgoundColor)
+* Add style to each element by using function with `…rest` and `…style` to minimize duplication of code
+* Use style function in js, it should be declared as `CamelCase` not as `KebabCase` (e.g back-ground Color => backgoundColor)
