@@ -5,46 +5,51 @@
 
 ## Learning takeaways
 
-### 01.
+### 01-document-create-element.html
 * Get element by using `getElementById`
 * Create element by using `createElement`
 * Add text content to the element by using `textContent`
 * Add class name to the element by using `className`
 * Add child element by using `appendChild()`
 
-### 02.
+### 02-react-create-element.html
 * Create element by using `React.createElement()`
 * Add children element by using `children: React.createElement()`
 * Declare element class name by using `className:`
 * Create relationship by using `ReactDOM.render(element, rootElement)`
 
-### 03.
+### 03-jsx.html
 * Create element by using babel stand alone (similar syntax with html)
 
-### 04.
+### 04-jsx-tricks.html
 * Create property of element by using `{…props}`
 * Override property of element by adding declaration
 
-### 05.
+### 05-fragments.html
 * Add two variables to `ReactDOM.render()` by using `<React.Fragment></React.Fragment>` or `<></>`
 
-### 06.
+### 06-custom-component.html
 * How to use arrow function `() => {}` for custom component
 * To use `<message>` tag as a function, it must start with Uppercase (message -> Message)
 * If not, complier understands `<message>` tag as a string and then creates as a DOM
 * Compare to `<div>` and `<Message>` tags at console log
   
-### 07.
+### 07-prop-types.html
 * Add prop-types.js in script to use propTypes function
 * Check validation of component by using condition: `string(props, propName, componentName)`
 * Check validation of every component by using `PropTypes.string.isRequired` to each component
 
-### 08.
+### 08-jsx-interpolation.html
 * Add js function with jsx by using `<>` and go back to js by using `{}`
 
-### 09.
+### 09-re-render.html
 * Re-rendering application without delating the focus by using jsx in React
 
-### 10.
+### 10-styling.html
 * Add style to each element by using function with `…rest` and `…style` to minimize duplication of code
 * Use style function in js, it should be declared as `CamelCase` not as `KebabCase` (e.g back-ground Color => backgoundColor)
+
+### 11-event-handlers.html
+* Add `setState` and `renderApp` function for updating state and re-render the app
+* `onCount ={() => setState({username:''})}` to set the function in the tag
+* Or make as a function `handleChange` outside of the jsx
