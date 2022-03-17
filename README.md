@@ -53,3 +53,11 @@
 * Add `setState` and `renderApp` function for updating state and re-render the app
 * `onCount ={() => setState({username:''})}` to set the function in the tag
 * Or make as a function `handleChange` outside of the jsx
+
+### 12-state.html
+* Create link between label and input by using `htmlFor` in jsx
+* Use state in a React function component by using `React.useState()` with any type of variable
+
+### 13-side-effects.html
+* Use `React.useEffect` to set the value in local storage
+* Use `window.localStorage.getItem` to initialize it
