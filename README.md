@@ -61,3 +61,10 @@
 ### 13-side-effects.html
 * Use `React.useEffect` to set the value in local storage
 * Use `window.localStorage.getItem` to initialize it
+
+### 14-lazy-initialization.html
+* Use `() => {}` is called as `lazy initializer` to avoid unnecessary retrieving
+
+### 15-effect-deps.html
+* Use dependency array to syncronize state of application
+* Call back function relys on dependency array
